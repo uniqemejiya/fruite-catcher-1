@@ -41,7 +41,8 @@ class Game{
 
                 Player.getPlayerInfo();
 //Call the getPlayerAtEnd() function in the play() function of game.js.
-               getPlayerAtEnd();
+
+
                 image(back_img, 0, 0, 1000, 800);
                  var x =100;
                  var y=200;
@@ -76,7 +77,6 @@ class Game{
                 if(player.score>=5){
                     player.rank += 1;
 //Call the updatePlayerAtEnd() function in the play() of game.js
-                    updatePlayerAtEnd();
                     player.update();
                     this.showRank();
                     gameState = 2; 
@@ -133,11 +133,7 @@ class Game{
 
     }
     showRank() {
-      swall()
-
-      
-
-      
+      //create swal function
         }
 
 

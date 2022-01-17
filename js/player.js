@@ -38,13 +38,9 @@ class Player {
     }
 
    //write a function for getPlayerAtEnd()
-       getPlayerAtEnd(){
-           
-       }
+       
 
    //write a function for  static updatePlayerAtEnd(rank)
-   static updatePlayerEnd(){
-
-   }
+        
     
 }
